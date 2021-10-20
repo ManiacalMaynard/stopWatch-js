@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    font-family: sans-serif;
+    color: #FFF
+}
+
+* {
+    border: #cc0000 1px solid;
+}
+
+#container {
+    width: 60vw;
+    height: auto;
+    background-color: #5F9EA0;
+    border-radius: 10px;
+}
+
+#timers {
+    border: #00CC00 3px solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+#hours, #mins, #secs {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #CCC
+}
+
+#pauseButton, #mainButton, #resetButton {
+    padding: 20px 20px;
+}
+
+#mainButton {
+    color: #7FFF00;
+    font-size: 5rem;
+}
