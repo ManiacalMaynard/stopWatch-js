@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="./styles.css?v=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+
     <script src="https://kit.fontawesome.com/f8e1c1f5ec.js" crossorigin="anonymous"></script>
 
     <title>Stopwatch Project by Maynard</title>
@@ -14,37 +16,29 @@
 <body>
 
     <div id="container">
-    <h1>Nonstop Stopwatch</h1>
+    <div><h1>Simple Timer</h1></div>
 
         <div id="timerBox">
-            <div id="timers">
-                <div class="time">
-                    HOURS <span id="hours">00</span>
-                </div>
-                <div class="time">
-                    MINS <span id="mins">00</span>
-                </div>
-                <div class="time">
-                    SECS <span id="secs">00</span>
-                </div>
+            <div id="timer">
+                    0 : 0
             </div>
         </div>
 
         <div id="buttons">
 
-            <div id="pauseButton">
+            <div id="pauseButton" onclick="pauseButton()">
                 <i class="fas fa-pause-circle"></i>
-            </div>
-            <div id="mainButton">
+            </div></a>
+            <div id="mainButton" onclick="startButton()">
                 <i class="fas fa-play-circle"></i>
             </div>
-            <div id="resetButton">
-                <i class="fas fa-backward"></i>
+            <div id="resetButton" onclick="resetButton()">
+                <i class="fas fa-times-circle"></i>
             </div>
         </div>
 
         <p>
-            This project dot dot dot...
+            This project was done as an exercise, nothing more. Simple timer that counts up from zero seconds, updates minutes, has a pause and reset function, and looks clean. You can get get the code at this <a href="https://github.com/ManiacalMaynard/stopWatch-js" target="_blank">GitHub Repo</a>. Thank you for watching!
         </p>
 
     </div>
