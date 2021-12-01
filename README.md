@@ -9,4 +9,4 @@ When I come back to this I may duplicate it and rework it as a kitchen timer wit
 Until then, cheers!
 
 
-Bug found: Live testing by some friends found that rapid clicking/tapping on Start resulted in runaway clock speeding up with every click/tap. Need to only allow the button to fire once and disable.
+Bug found: Live testing by some friends found that rapid clicking/tapping on Start resulted in runaway clock speeding up with every click/tap. Need to only allow the button to fire once and disable. **Fixed 21-12-01 update, issue resolved**
